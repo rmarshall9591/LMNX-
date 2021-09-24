@@ -1,0 +1,28 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+th{
+  background-color: hsl(348, 88%, 39%);
+  color:white;
+  text-align: center;
+}
+  
+  td, th {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+
+td{text-align: center;}
+  
+tr:nth-child(even) {
+    background-color:#fafafa;
+  }
+  tr:nth-child(odd) {
+    background-color:hsl(348, 88%, 95%);
+  }
+
+
